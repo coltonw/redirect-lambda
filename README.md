@@ -1,4 +1,4 @@
-# Serverless Framework Node HTTP API on AWS
+# Redirect service for www.willcolton.com
 
 This is a simple redirect service for redirecting www.willcolton.com to whatever subpage I favor at the moment.
 
@@ -13,7 +13,7 @@ $ npx serverless deploy
 After deploying, you should see output similar to:
 
 ```bash
-Deploying aws-node-http-api-project to stage dev (us-east-1)
+Deploying redirect-lambda to stage dev (us-east-1)
 
 ✔ Service deployed to stack redirect-lambda-dev (152s)
 
