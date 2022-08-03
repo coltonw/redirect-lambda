@@ -1,0 +1,14 @@
+service: redirect-lambda
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  redirect:
+    handler: handler.redirect
+    events:
+      - httpApi:
+          path: /
+          method: get
