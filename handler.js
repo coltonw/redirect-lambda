@@ -3,7 +3,7 @@
 module.exports.redirect = async () => {
   return {
     statusCode: 307,
-    Headers: {
+    headers: {
       Location: "https://cra.willcolton.com/",
     },
   };
